@@ -1,0 +1,225 @@
+.main{
+    width: 100%;
+    background-color: rgb(110, 36, 7);
+}
+.NavContent{
+    width: 100%;
+    display: flex;
+}
+.navB{
+    width:20%;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+.width40{
+    width: 40%;
+}
+.contentRightNav{
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+    width:40% ;
+    align-items: center;
+}
+.sign button{
+font-size: 20px;
+}
+@media screen and (max-width:950px) {
+    .NavContent{
+        flex-direction: column;
+    }
+    .contentRightNav{
+        width:100%
+    }
+    .navB{
+        width:100%;
+        justify-content: center;
+    }
+}
+#sBar input{
+    border:1px solid brown;
+    padding: 15px;
+    width: 50%;
+    border-radius: 5px; 
+    font-size: 15px;
+}
+#sBar button{
+  border:1px solid brown;
+    padding: 15px; 
+    font-size: 15px;
+    
+}
+#sBar{
+    text-align: center;
+    margin-top: 10px;
+}
+.navB img{
+    height:12vh;
+
+}
+#nam{
+    color: white;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.sign{
+    float:right;
+    padding-right: 50px;
+}
+.sign a{
+   
+    text-decoration: none;
+    color: white;
+}
+body{
+    background-image: url('https://wallpaper.dog/large/5499891.jpg');
+    background-repeat: no-repeat;
+   background-size: cover;
+}
+.para{
+    text-align: center;
+    font-size: 30px;
+   align-items: center;
+   padding-top: 50px;
+   color: rgb(9, 3, 37);
+   
+}
+.sign button{
+    border: 1px solid rgb(110, 36, 7);
+    color: rgb(241, 248, 242);
+    background-color:rgb(110, 36, 7);
+    padding: 10px;
+}
+.sign button:hover{
+    background-color: rgb(190, 108, 60);
+}
+.modal{
+    opacity: .9;
+    background-color: rgb(184, 110, 41);
+    width: 30%;
+    margin: auto;
+    border-radius: 8px;
+    border: 2px solid rgb(13, 13, 110);
+    display:none;
+}
+.fill{
+    padding: 20px;
+}
+.moreIN{
+    text-align: center;
+}
+.moreIN button{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 30px;
+    border: 1px solid rgba(165, 42, 42, 0.767);
+    color: white;
+    background-color:  rgba(165, 42, 42, 0.767);
+    font-weight: bold;
+    cursor: pointer;
+}
+.moreIN button:hover{
+    border: 1px solid black;
+}
+.tab{
+  margin-left: 13%;
+}
+.text{
+    margin-left: 3%;
+}
+.modal1{
+    opacity: .9;
+    background-color: rgb(184, 110, 41);
+    width: 30%;
+    margin: auto;
+    border-radius: 8px;
+    border: 2px solid rgb(13, 13, 110);
+    display:none;
+    padding-bottom: 15px;
+    
+}
+.modal{
+    padding-bottom: 15px;
+}
+#newH{
+  color: rgb(231, 14, 14);  
+}
+#cancel{
+    color: red;
+    border: 1px solid red;
+    padding: 3%;
+}
+#button{
+    color: green;
+    border: 1px solid green;
+    padding: 3%;
+}
+@media screen and (max-width:900px) {
+    .modal{
+        width:80%;
+    }
+}
+@media screen and (max-width:900px) {
+    .modal1{
+        width:80%;
+    }
+}
+#more{
+    background-color: rgb(143, 15, 126);
+    color: white;
+}
+.close:hover,
+.close:focus {
+  color: #f44336;
+  cursor: pointer;
+}
+.close{
+    font-size: 50px;
+    float: right;
+    margin-right: 15px;
+}
+.nameR{
+    background-color: rgb(137, 108, 165);
+    width: 60%;
+    margin: auto;
+}
+.nameR:hover{
+    width: 60%;
+    margin: auto;
+    background-color: white;
+}
+.infoR{
+   border: 1px solid  rgb(70, 9, 9);
+   border-radius: 5px;
+    width: 70%;
+    margin: auto;
+    margin-top: 10px;
+    background: linear-gradient(90deg, rgba(151,210,174,1) 0%, rgba(189,182,150,1) 0%, rgba(213,140,135,1) 0%, rgba(170,40,13,0.6404936974789917) 0%, rgba(166,206,57,0.3295693277310925) 0%, rgba(142,193,32,0.6012780112044818) 49%, rgba(116,180,6,0.24273459383753504) 100%, rgba(204,86,29,0.4724264705882353) 100%, rgba(164,65,57,0.8561799719887955) 100%, rgba(178,84,47,1) 100%);
+    color:white ;
+    opacity: .9;
+
+}
+.infoR h4{
+    color: rgb(70, 9, 9);
+}
+#photograph{
+    width:60%
+}
+#comment{
+    width: 90%;
+    margin: auto;
+}
+.onefield{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    width:100%;
+    margin-bottom: 2%;
+    border: 1px solid black;
+}
+.onefield:hover{
+    border: 1px solid blue;
+}
+#formSinnupStatus{
+color: green;
+}
